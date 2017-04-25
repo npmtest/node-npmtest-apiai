@@ -1,6 +1,6 @@
 # npmtest-apiai
 
-#### test coverage for  [apiai (v4.0.2)](https://github.com/api-ai/api-ai-node-js#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-apiai.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-apiai) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-apiai.svg)](https://travis-ci.org/npmtest/node-npmtest-apiai)
+#### basic test coverage for  [apiai (v4.0.2)](https://github.com/api-ai/api-ai-node-js#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-apiai.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-apiai) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-apiai.svg)](https://travis-ci.org/npmtest/node-npmtest-apiai)
 
 #### Node.js SDK for api.ai
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-apiai/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-apiai/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-apiai/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-apiai/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-apiai/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-apiai/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-apiai/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-apiai/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-apiai/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-apiai/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-apiai/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-apiai/build/coverage.html/index.html)
 
@@ -89,7 +89,8 @@
         "build:live": "NODE_ENV=development nodemon --exec ./node_modules/.bin/ts-node -- ./typescript_examples/text_request.ts"
     },
     "types": "index.d.ts",
-    "version": "4.0.2"
+    "version": "4.0.2",
+    "bin": {}
 }
 ```
 
